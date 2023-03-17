@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Education Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>성민이 단어 연습장</h1>
+  </div>
+
+  <div class="monitor" id="monitor"></div>
+  <div class="buttons-container">
+      <div class="letter-row">
+          <span class="index">ㄱ</span>
+          <!-- <button data-word="가">가</button>
+          <button data-word="거">거</button> -->
+          <button data-word="고">고</button>
+          <button data-word="구">구</button>
+          <button data-word="기">기</button>
+          <!-- <button data-word="개">개</button> -->
+          <button data-word="김">김</button>
+          <button data-word="공">공</button>
+          <button data-word="껌">껌</button>
+          <!-- Add more word buttons starting with "A" as needed -->
+      </div>
+      <div class="letter-row">
+          <span class="index">ㄴ</span>
+          <button data-word="나">나</button>
+          <button data-word="님">님</button>
+          <!-- <button data-word="너">너</button>
+          <button data-word="노">노</button>
+          <button data-word="누">누</button>
+          <button data-word="니">니</button>
+          <button data-word="내">내</button> -->
+      </div>
+      <div class="letter-row">
+          <span class="index">ㄷ</span>
+          <button data-word="다">다</button>
+          <button data-word="더">더</button>
+          <button data-word="도">도</button>
+          <!-- <button data-word="두">두</button>
+          <button data-word="디">디</button>
+          <button data-word="대">대</button> -->
+      </div>
+      <div class="letter-row">
+        <span class="index">ㄹ</span>
+        <button data-word="라">라</button>
+        <!-- <button data-word="러">러</button>
+        <button data-word="로">로</button>
+        <button data-word="루">루</button>
+        <button data-word="리">리</button>
+        <button data-word="래">래</button> -->
+        <button data-word="린">린</button>
+      </div>
+      <div class="letter-row">
+        <span class="index">ㅁ</span>
+        <button data-word="마">마</button>
+        <button data-word="민">민</button>
+        <button data-word="몽">몽</button>
+        <!-- <button data-word="머">더</button>
+        <button data-word="모">도</button>
+        <button data-word="무">두</button>
+        <button data-word="미">디</button>
+        <button data-word="매">대</button> -->
+      </div>
+      <div class="letter-row">
+        <span class="index">ㅂ</span>
+        <button data-word="바">바</button>
+        <button data-word="버">버</button>
+        <button data-word="박">박</button>
+        <button data-word="밥">밥</button>
+        <button data-word="빠">빠</button>
+        <button data-word="빵">빵</button>
+      </div>
+      <div class="letter-row">
+        <span class="index">ㅅ</span>
+        <button data-word="사">사</button>
+        <button data-word="선">선</button>
+        <button data-word="성">성</button>
+        <button data-word="상">상</button>
+        <button data-word="생">생</button>
+        <!-- <button data-word="car">더</button>
+        <button data-word="cat">도</button>
+        <button data-word="car">두</button>
+        <button data-word="cat">디</button>
+        <button data-word="car">대</button> -->
+      </div>
+      <div class="letter-row">
+        <span class="index">ㅇ</span>
+        <button data-word="아">아</button>
+        <button data-word="엄">엄</button>
+        <button data-word="애">애</button>
+        <button data-word="요">요</button>
+        <!-- <button data-word="car">두</button>
+        <button data-word="cat">디</button>
+        <button data-word="car">대</button> -->
+      </div>
+      <div class="letter-row">
+        <span class="index">ㅈ</span>
+        <button data-word="집">집</button>
+        <!-- <button data-word="전">전</button>
+        <button data-word="car">더</button>
+        <button data-word="cat">도</button>
+        <button data-word="car">두</button>
+        <button data-word="cat">디</button>
+        <button data-word="car">대</button> -->
+      </div>
+      <div class="letter-row">
+        <span class="index">ㅊ</span>
+        <button data-word="차">차</button>
+        <button data-word="책">책</button>
+        <!-- <button data-word="cat">도</button>
+        <button data-word="car">두</button>
+        <button data-word="cat">디</button>
+        <button data-word="car">대</button> -->
+      </div>
+      <!-- <div class="letter-row">
+        <span class="index">ㅋ</span>
+        <button data-word="cat">다</button>
+        <button data-word="car">더</button>
+        <button data-word="cat">도</button>
+        <button data-word="car">두</button>
+        <button data-word="cat">디</button>
+        <button data-word="car">대</button>
+      </div> -->
+      <!-- <div class="letter-row">
+        <span class="index">ㅌ</span>
+        <button data-word="cat">다</button>
+        <button data-word="car">더</button>
+        <button data-word="cat">도</button>
+        <button data-word="car">두</button>
+        <button data-word="cat">디</button>
+        <button data-word="car">대</button>
+      </div> -->
+      <div class="letter-row">
+        <span class="index">ㅍ</span>
+        <button data-word="판">판</button>
+        <!-- <button data-word="car">더</button>
+        <button data-word="cat">도</button>
+        <button data-word="car">두</button>
+        <button data-word="cat">디</button>
+        <button data-word="car">대</button> -->
+      </div>
+      <div class="letter-row">
+        <span class="index">ㅎ</span>
+        <button data-word="한">한</button>
+        <button data-word="희">희</button>
+        <button data-word="형">형</button>
+        <!-- <button data-word="밥">밥</button>
+        <button data-word="빠">빠</button>
+        <button data-word="빵">빵</button> -->
+      </div>
+    </div>
+
+      <!-- Add more letter rows as needed -->
+  </div>
+  <button id="clear-screen" data-word="지웠습니다">화면 지우기</button>
+
+  <div class="footer">
+    <p>&copy; 2023 성민이 단어 연습장. All rights reserved.</p>
+    <p>기산초등학교 특수반</p>
+    <p>Email: yohanpark77@gmail.com</p>
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
